@@ -12,9 +12,9 @@ if __name__ == '__main__':
     sum = 0
     count = 0
 
-    for i in range(0, len(A)):
-        if A[i] % 2 == 0:
-            sum += A[i]
+    for id, val in enumerate(A):
+        if val % 2 == 0:
+            sum += val
             count += 1
 
     print("Сумма равна - ", sum, "\nКол-во равно - ", count)
