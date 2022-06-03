@@ -11,9 +11,9 @@ if __name__ == '__main__':
 
     pol = 0
 
-    for i in range(len(A)):
-        if A[i] > 0:
-            pol += A[i]
+    for id, val in enumerate(A):
+        if val > 0:
+            pol += val
 
     sum = 0
 
